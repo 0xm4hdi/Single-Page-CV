@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #949393;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pageCV{
+    background-color: #fff;
+    font-family: "Cabin", sans-serif;
+    border: 3px solid #4e4e4e;
+    border-radius: 2px;
+    width: 62%;
+    padding: 60px 150px 50px 60px;
+}
+
+.contact, .skills, .edu, .exp, .media {
+    margin-bottom: 20px;
+}
+
+hr{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+.sup-title{
+    color: rgb(81, 188, 81);
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+address{
+    font-style: normal;
+}
+
+.sub-title{
+    color: rgb(35, 132, 243);
+    font-weight: 900;
+    margin-bottom: 2px;
+}
+
+.skills,.edu,.exp p{
+    line-height: 23px;
+}
+
+section{
+    margin-bottom: 10px;
+}
+
+ul{
+    list-style-type:disc;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 6px;
+    padding-left: 9px;
+}
+
+.icon{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.media a{
+    color: black;
+}
+
+.media a:hover {
+    color: rgb(95, 95, 95);
+}
